@@ -41,9 +41,12 @@ public class Principal {
 		 cuenta.Print();
 		 requisicion = (Requisicion) gestorRequisicion.busca("Alfonso-compra-A-cuenta-1-Req-Cheques");
 		 requisicion.Print();
-		 requisicion.Print();
 		 cheque = (Cheque) gestorCheques.busca("Alfonso-compra-A-cuenta-1-Req-Cheques-ChequesX");
 		 cheque.Print();
+		 
+
+		 requisicion.valida();
+		 requisicion.Print();
 		 
 	}
 
